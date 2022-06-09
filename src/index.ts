@@ -1,4 +1,5 @@
 import { Button } from './button'
+import './index.css'
 
 function main() {
     console.log('LC+ has started.')

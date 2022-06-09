@@ -12,6 +12,13 @@ module.exports = {
                 use: 'ts-loader',
                 exclude: /node_modules/,
             },
+            {
+                test: /index\.css$/i,
+                loader: "file-loader",
+                options: {
+                    name: 'index.css'
+                }
+            },
         ],
     },
     resolve: {
